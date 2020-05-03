@@ -12,7 +12,7 @@ class PygmyGo < Formula
     bin_path = buildpath/"src/github.com/fubarhouse/pygmy-go"
     bin_path.install Dir["*"]
     cd bin_path do
-      system "go", "build", "-o", bin/"pygmy", "-ldflags", "-X main.version=#{version}", "."
+      system "go", "build", "-o", bin/"pygmy-go", "-ldflags", "-X main.version=#{version}", "."
     end
   end
 
