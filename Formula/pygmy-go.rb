@@ -2,7 +2,7 @@ class PygmyGo < Formula
   desc "Amazee.io's local development helper tool"
   homepage "https://github.com/fubarhouse/pygmy-go"
   url "https://github.com/fubarhouse/pygmy-go/archive/v0.3.0.tar.gz"
-  sha256 "cbe411eb2fbc870440d859ad20855d0e73b1fade9f303836056140df8af7e88c"
+  sha256 "31965b17db3b1523fc7b238700a7b2d7fc7bff502b82d0c9df7364f0f1bd0f25"
   version "v0.3.0"
 
   depends_on "go" => :build
